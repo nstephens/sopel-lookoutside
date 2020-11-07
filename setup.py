@@ -26,14 +26,14 @@ with open('tests/requirements.txt') as dev_requirements_file:
 
 
 setup(
-    name='sopel_modules.weather',
+    name='sopel_modules.lookoutside',
     version='1.2.2',
-    description='A working re-implementation of the weather module for Sopel',
+    description='A rework of the weather module for Sopel',
     long_description=readme + '\n\n' + history,
     long_description_content_type='text/x-rst',
-    author='Rusty Bower',
-    author_email='rusty@rustybower.com',
-    url='http://github.com/rustybower/sopel-weather',
+    author='Nick Stephens',
+    author_email='nick@manipulate.org',
+    url='http://github.com/nstephens/sopel-lookoutside',
     packages=find_packages('.'),
     namespace_packages=['sopel_modules'],
     include_package_data=True,
