@@ -1,8 +1,6 @@
-===============
+===========================
  sopel-lookoutside
-===============
-
-|version| 
+=========================== 
 
 Introduction
 ============
@@ -66,7 +64,7 @@ Current Weather
     Paris, Ile-de-France, FR: 6°C (42°F), Clear, Humidity: 83%, UV Index: 0, Gentle breeze 4.0m/s (↗)
 
 4day Forecast
-~~~~~~~~~~~~
+~~~~~~~~~~~~~~
 .. code-block::
 
     .forecast # Only works if setlocation has been previously run
@@ -77,9 +75,10 @@ Current Weather
 
  Forecast: Paris, Ile-de-France, FR: Light rain tomorrow through next Saturday, High: 15°C (59°F), Low: 11°C (52°F), UV Index: 2
 
- Air Quality Index
-~~~~~~~~~~~~
- .. code-block::
+Air Quality Index
+~~~~~~~~~~~~~~~~~~~
+
+.. code-block::
 
     .aqi # Only works if setlocation has been previously run
     .aqi seattle, us
